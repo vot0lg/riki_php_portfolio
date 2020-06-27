@@ -6,7 +6,7 @@ $app = new MyApp\Controller\Login();
 
 $app->run();
 
-採用者様用アカウント
+採用者様用アカウント;
 Email: test@gmail.com;
 Password: tttttt;
 ?>
