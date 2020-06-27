@@ -5,7 +5,10 @@ require_once(__DIR__ . '/../config/config.php');
 $app = new MyApp\Controller\Login();
 
 $app->run();
-echo date('YmdHis');
+
+採用者様用アカウント
+Email: test@gmail.com;
+Password: tttttt;
 ?>
 
 <!DOCTYPE html>
