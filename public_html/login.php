@@ -6,9 +6,6 @@ $app = new MyApp\Controller\Login();
 
 $app->run();
 
-採用者様用アカウント;
-Email: test@gmail.com;
-Password: tttttt;
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +19,9 @@ Password: tttttt;
   <header><div class="success"><?= h($app->getValues('success')) ; ?></div></header>
   <h1>ログイン</h1>
   <a href="signup.php">新規登録へ</a>
+  <p>採用者様用アカウント</p>
+  <p>Email: test@gmail.com</p>
+  <p>Password: tttttt;</p>
   <div class="form">
     <form action="" method="post">
   <p>
